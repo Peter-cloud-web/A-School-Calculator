@@ -1,0 +1,170 @@
+body{
+       
+	font-family: Montserrat,Arial,Helvetica;
+	font-size: 12px;
+	line-height: 1.5; 
+	padding: 0;
+	margin: 0;
+	background-color:white;
+}
+.slider{
+
+	width:1500px;
+	height: 425px;
+	background-image: url(S6.jpg);
+	margin: 100px auto;
+	animation: slide 15s infinite;
+    margin-top:10px;
+    border-bottom: blue 5px solid;	
+}
+
+
+
+
+.slider h1{
+	text-align:center;
+	color:white;
+	font-weight:700;
+	background-color: rgba(0,0,0,0.6);
+	font-size:35px;
+	padding: 140px;
+
+}
+
+ @keyframes slide{
+ 	
+
+	25%{
+		background-image: url(S1.jpg);
+	}
+	50%{
+		background-image: url(S2.jpeg);
+	}
+	75%{
+		background-image: url(S4.jpeg);
+	}
+	100%{
+		background-image: url(stud4.jpg);
+		
+	}
+}
+.container{
+ 	width:100%;
+ 	margin:auto;
+ 	overflow:hidden;	
+ 	position:fixed;
+	top:0;
+	background-color: rgb(255,255,255);
+	color: black;
+	border-bottom: black 3px solid;
+	border-top: blue 3px solid;
+	position: fixed;
+ }
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+header{
+	overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+	font-size:35px;
+	position:fixed;
+	top:0;
+    width:100%;
+	min-height:50px;
+	padding-bottom:10px;
+	
+
+}
+header h1{
+	color:black;
+	padding-top:10px;
+	 
+	
+
+}
+header a{
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight:800;
+
+}   
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+header #branding{
+	float: left;
+    }
+header #branding h1{
+ 	margin: 0;
+ 	font-size: 20px;
+ 	font-weight: bolder;
+ 	margin-left: 50px;
+
+ }
+header nav{
+	float: right;
+	 
+}
+header .highlight, header .current a{
+	color: blue; 
+}
+header a:hover{
+	color:green;
+}
+#About {
+	padding-bottom: 30px;
+}
+#About h2{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 30px;
+	
+}
+#About p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+#Calculator{
+	color:white;
+	padding-bottom: 60px;
+	font-weight:700;
+	text-align:center;
+	background-color:black;
+}
+#Calculator button{
+	font-weight:700;
+}
+#Calculator h1{
+	font-weight:700;
+	color: black;
+	font-size:40px;
+	background-color:yellow
+}
+#Calculator h3{
+	font-weight:700;
+	color: Yellow;
+	font-size:30px;
+	
+	
+}
+
+footer{
+	background-color:rgba(0,0,0,0.9);
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	text-align:center;
+	color:white;
+	padding-top:0px;
+	font-weight:700;
+}

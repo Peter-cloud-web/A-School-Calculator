@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+	 <head>
+
+		<title>MathGeeeks</title>
+
+	    <link rel="stylesheet" type="text/css" href="School.css" />
+
+		<script>
+
+				
+			function calc()
+
+			{
+					var n1 = document.getElementById('n1').value;
+					var n2 = document.getElementById('n2').value;
+					var oper = document.getElementById('operators').value;
+                
+					if(oper==='+')
+
+				{
+				    	var n2=document.getElementById('result').value = n1 + n2;
+
+				}
+				    if(oper==='-')
+
+
+				{
+					    var n2=document.getElementById('result').value = n1 - n2;
+				}
+				    if(oper==='*')
+
+				{
+					    var n2=document.getElementById('result').value = n1 * n2;
+				}
+				    if(oper==='/')
+				{
+			
+					   var n2=document.getElementById('result').value = n1 / n2;
+				}
+
+			}
+
+			
+				
+			</script>
+
+	 </head>
+
+
+	 <body>
+          <script src ="School.js"></script>
+	 	<header>
+	 		<div class="container">
+	 			<div  id="branding">
+	 				<h1> MOJO ACADEMY</h1>
+	 			</div>
+	 			<nav>
+	 				<ul>
+	 					 <li class="current"><a href="Home.html">Home</a></li>  <li><a href="News">News</a></li> <a href="Contacts.html">Contacts</a></li>
+						 <li><a href="About">about</a></li>
+	 				</ul>
+	 			</nav>
+	 		</div>
+	 	</header>
+	 
+	 	<div class="slider">
+            <h1> <i>The Mojo Academy</i> is the centre of excelence in introducing 
+              young minds to technological advancements in regards to education.
+            </h1>
+        </div>
+
+        <div id="About">
+          	<h2>About this platform</h2>
+             <p>
+          	 Incentives are essential to motivate employees to work efficiently when implemented
+             Financial Incentive : We will provide monetary benefit to employees to encourage
+             Offer Bonuses and commissions by offering once per month.
+             </p>
+
+          
+        </div>
+	 	<div id="Calculator">
+	 			<h1>The Mojo Calculator</h1>
+	 		    First Number   :<input type="text" id="n1"/><br/><br>
+	 	        Second Number   :<input type="text" id="n2"/><br/><br>
+	 	        Options        :<select id="operators">
+	 		   	<option value="+">+</option>
+	 		   	<option value="-">-</option>
+	 		   	<option value="*">*</option>
+	 		   	<option value="/">/</option>
+	 		   </select>
+	 		   <button onclick="calc();">=</button><br/><br>
+	 		   Answer  :<input type="text" id="result"/><br/><br>
+
+	 			<h3>Our Contact Details</h3>
+	 			<p2>
+	 				Email :<a href="#">info@mojo.com</a><br/><br>
+	 				Tell :0800 234 55678 Kenya<br/><br>
+	 				     0800 456 7893<br/><br>
+                     P.o Box 704-34567<br/><br>
+
+	 			</p2>
+	 		
+	 		</div>
+	 	</section>
+
+              
+	 </body>
+<footer>
+	 			
+<p class="pull-right"></p>
+<p> 2019 Mojo Academy. &copypetergichia; <a href="#">Privacy</a> &middot; <a href="#">Terms & conditions</a></p>
+</footer>
+	 		
+</html>
